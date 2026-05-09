@@ -1,0 +1,15 @@
+[package]
+name = "disk-camembert"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "camembert"
+path = "src/main.rs"
+
+[dependencies]
+crossterm = "0.28"
+fs2 = "0.4"
+
+[dev-dependencies]
+tempfile = "3"

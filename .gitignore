@@ -1,0 +1,14 @@
+# Rust build artefacts
+/target
+
+# Claude Code workspace + local-only docs (CLAUDE.md, RustInit.md, RustTuto.md, etc.)
+.claude/
+*.md
+
+# OS / IDE droppings
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
