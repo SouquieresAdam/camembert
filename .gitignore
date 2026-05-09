@@ -2,8 +2,10 @@
 /target
 
 # Claude Code workspace + local-only docs (CLAUDE.md, RustInit.md, RustTuto.md, etc.)
+# README.md is whitelisted: it's the public face of the repo.
 .claude/
 *.md
+!README.md
 
 # OS / IDE droppings
 .DS_Store
