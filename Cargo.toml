@@ -2,6 +2,10 @@
 name = "disk-camembert"
 version = "0.1.0"
 edition = "2024"
+description = "Disk-usage explorer en CLI Rust : scanne un dossier et l'affiche en camembert ASCII Unicode interactif (drill-down souris/clavier)."
+repository = "https://github.com/SouquieresAdam/camembert"
+readme = "README.md"
+license = "MIT"
 
 [[bin]]
 name = "camembert"
@@ -13,3 +17,8 @@ fs2 = "0.4"
 
 [dev-dependencies]
 tempfile = "3"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"

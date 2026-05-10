@@ -126,3 +126,7 @@ The codebase is **TDD**: each pure module has a `#[cfg(test)]` suite co-located 
 - [`crossterm`](https://crates.io/crates/crossterm) — cross-platform terminal control (raw mode, mouse capture, colors)
 - [`fs2`](https://crates.io/crates/fs2) — disk total/available space (drive picker)
 - [`tempfile`](https://crates.io/crates/tempfile) — dev-only, for filesystem tests
+
+## License
+
+MIT — see [LICENSE](LICENSE). Free to use, modify, and redistribute, including in commercial products.
