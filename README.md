@@ -36,7 +36,29 @@ Standalone binary — no runtime needed; install via `cargo install`.
 
 ## Install
 
-### Pre-built binary (no Rust toolchain needed)
+### Easy install (no terminal experience required)
+
+#### Windows
+
+1. Download [`camembert-x86_64-pc-windows-msvc.msi`](https://github.com/SouquieresAdam/camembert/releases/latest) from the latest release
+2. Double-click the `.msi` file
+3. If Windows shows **"Windows protected your PC"**, click **More info** → **Run anyway** (the installer is unsigned because we don't pay for an EV certificate — this is normal for new open-source tools)
+4. Follow the wizard
+5. Open **PowerShell** or **Terminal** and type `camembert`
+
+#### macOS
+
+```bash
+brew install SouquieresAdam/camembert/camembert
+```
+
+(Requires [Homebrew](https://brew.sh). Homebrew handles macOS Gatekeeper for you — no scary "developer cannot be verified" dialog.)
+
+#### Linux
+
+For now, use the one-liner below. A `.deb` package is on the roadmap.
+
+### Terminal one-liners (any OS)
 
 **macOS / Linux**
 
@@ -50,7 +72,7 @@ curl --proto '=https' --tlsv1.2 -LsSf https://github.com/SouquieresAdam/camember
 powershell -ExecutionPolicy Bypass -c "irm https://github.com/SouquieresAdam/camembert/releases/latest/download/camembert-installer.ps1 | iex"
 ```
 
-These installers fetch the right binary for your OS/arch and drop it into `~/.cargo/bin` (or `%CARGO_HOME%\bin`). Pin a specific version by replacing `latest` with `download/v0.1.0`.
+These installers fetch the right binary for your OS/arch and drop it into `~/.cargo/bin` (or `%CARGO_HOME%\bin`). Pin a specific version by replacing `latest/download` with `download/v0.1.1`.
 
 ### From source (requires Rust 1.85+, edition 2024)
 

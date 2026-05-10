@@ -4,8 +4,16 @@ version = "0.1.1"
 edition = "2024"
 description = "Disk-usage explorer en CLI Rust : scanne un dossier et l'affiche en camembert ASCII Unicode interactif (drill-down souris/clavier)."
 repository = "https://github.com/SouquieresAdam/camembert"
+homepage = "https://github.com/SouquieresAdam/camembert"
 readme = "README.md"
 license = "MIT"
+authors = ["Adam Souquieres <adam@stream.consulting>"]
+
+[package.metadata.wix]
+upgrade-guid = "B62BA7CB-C293-4FFF-B625-6CCB139E392E"
+path-guid = "24E2AF52-BA76-4FD2-9290-7AB8BC92D33E"
+license = false
+eula = false
 
 [[bin]]
 name = "camembert"
