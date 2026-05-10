@@ -36,7 +36,23 @@ Standalone binary — no runtime needed; install via `cargo install`.
 
 ## Install
 
-Requires Rust 1.85+ (edition 2024).
+### Pre-built binary (no Rust toolchain needed)
+
+**macOS / Linux**
+
+```bash
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/SouquieresAdam/camembert/releases/latest/download/disk-camembert-installer.sh | sh
+```
+
+**Windows (PowerShell)**
+
+```powershell
+powershell -ExecutionPolicy Bypass -c "irm https://github.com/SouquieresAdam/camembert/releases/latest/download/disk-camembert-installer.ps1 | iex"
+```
+
+These installers fetch the right binary for your OS/arch and drop it into `~/.cargo/bin` (or `%CARGO_HOME%\bin`). Pin a specific version by replacing `latest` with `download/v0.1.0`.
+
+### From source (requires Rust 1.85+, edition 2024)
 
 ```bash
 cargo install --git https://github.com/SouquieresAdam/camembert
