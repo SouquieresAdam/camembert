@@ -1,6 +1,6 @@
 [package]
 name = "camembert"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2024"
 description = "Interactive disk-usage explorer for the terminal: Unicode pie chart with mouse and keyboard drill-down."
 repository = "https://github.com/SouquieresAdam/camembert"

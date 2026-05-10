@@ -69,7 +69,7 @@
 
         <Package Id='*'
             Keywords='Installer'
-            Description='Disk-usage explorer en CLI Rust : scanne un dossier et l&#39;affiche en camembert ASCII Unicode interactif (drill-down souris/clavier).'
+            Description='Interactive disk-usage explorer for the terminal: Unicode pie chart with mouse and keyboard drill-down.'
             Manufacturer='Adam Souquieres'
             InstallerVersion='450'
             Languages='1033'
