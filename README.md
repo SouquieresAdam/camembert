@@ -41,13 +41,13 @@ Standalone binary — no runtime needed; install via `cargo install`.
 **macOS / Linux**
 
 ```bash
-curl --proto '=https' --tlsv1.2 -LsSf https://github.com/SouquieresAdam/camembert/releases/latest/download/disk-camembert-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/SouquieresAdam/camembert/releases/latest/download/camembert-installer.sh | sh
 ```
 
 **Windows (PowerShell)**
 
 ```powershell
-powershell -ExecutionPolicy Bypass -c "irm https://github.com/SouquieresAdam/camembert/releases/latest/download/disk-camembert-installer.ps1 | iex"
+powershell -ExecutionPolicy Bypass -c "irm https://github.com/SouquieresAdam/camembert/releases/latest/download/camembert-installer.ps1 | iex"
 ```
 
 These installers fetch the right binary for your OS/arch and drop it into `~/.cargo/bin` (or `%CARGO_HOME%\bin`). Pin a specific version by replacing `latest` with `download/v0.1.0`.
@@ -103,7 +103,7 @@ Pressing `D` (or `U` at a disk root) opens a full-screen list of mounted drives 
 
 ## Architecture
 
-Library + binary (binary name `camembert`, crate `disk-camembert`):
+Library + binary (both named `camembert`):
 
 ```
 src/

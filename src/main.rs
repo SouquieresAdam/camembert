@@ -1,6 +1,6 @@
-use disk_camembert::command::{Command, parse_command};
-use disk_camembert::render::renderer;
-use disk_camembert::{DiskEntry, aggregator, drives, scanner, tui};
+use camembert::command::{Command, parse_command};
+use camembert::render::renderer;
+use camembert::{DiskEntry, aggregator, drives, scanner, tui};
 use std::env;
 use std::io::{self, BufRead, IsTerminal, Write};
 use std::path::PathBuf;

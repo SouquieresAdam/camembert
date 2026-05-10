@@ -1,6 +1,6 @@
 [package]
-name = "disk-camembert"
-version = "0.1.0"
+name = "camembert"
+version = "0.1.1"
 edition = "2024"
 description = "Disk-usage explorer en CLI Rust : scanne un dossier et l'affiche en camembert ASCII Unicode interactif (drill-down souris/clavier)."
 repository = "https://github.com/SouquieresAdam/camembert"
